@@ -149,6 +149,10 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
                                        timestamp: values.timestamp)
             self.timestamp = values.timestamp
             self.placemark = Place(values.strings)
+            if coord.latitude != 0.0, coord.longitude != 0.0,
+               self.placemark.isoCountryCode.count == 0 {
+                fetch()
+            }
             setLocale()
         } catch {
             os_log("%@", log: .default, type: .error,
