@@ -99,7 +99,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
             self.isoCountryCode         = strings.count >= 9 ? strings[8] : ""
         }
         
-        init( _ placemark: CLPlacemark ) {
+        internal init( _ placemark: CLPlacemark ) {
             self.name = placemark.name ?? ""
             self.thoroughfare = placemark.thoroughfare ?? ""
             self.subLocality = placemark.subLocality ?? ""
@@ -111,7 +111,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
             self.isoCountryCode = placemark.isoCountryCode ?? ""
         }
         
-        init( name: String? = nil,
+        internal init( name: String? = nil,
               thoroughfare : String? = nil,
               subLocality : String? = nil,
               locality : String? = nil,
@@ -138,7 +138,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         let timestamp : Date
     }
 
-    init?( content: Data ) {
+    public init?( content: Data ) {
         let plist = PropertyListDecoder()
         do {
             let values = try plist.decode(Values.self, from: content)
@@ -156,7 +156,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
             return nil
         }
     }
-    init?(_ placemark: CLPlacemark ) {
+    public init?(_ placemark: CLPlacemark ) {
         guard let loc = placemark.location else {return nil}
         self.location = loc
         self.placemark = Place(placemark)
@@ -180,7 +180,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
             locale = nil
         }
     }
-    init( location: CLLocation ) {
+    public init( location: CLLocation ) {
         self.location = location
         self.timestamp = location.timestamp
         self.locale = Locale.current
@@ -188,7 +188,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         fetch()
     }
     
-    init( latitude: Double, longitude: Double, _ placename : String? = nil) {
+    public init( latitude: Double, longitude: Double, _ placename : String? = nil) {
         self.location = CLLocation(latitude: latitude, longitude: longitude)
         self.timestamp = Date()
         self.locale = Locale.current
@@ -196,7 +196,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         fetch()
     }
     
-    init() {
+    public init() {
         self.location = CLLocation(latitude: 0, longitude: 0)
         self.timestamp = Date()
         self.locale = Locale.current
