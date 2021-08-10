@@ -24,7 +24,6 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
     private var operation : PacedOperation?
     
     internal static var oslog = OSLog(subsystem: "com.nelsonlogic", category: "CompactPlacemark")
-    internal static var bundle = Bundle(for: CompactPlacemark.self)
 
     public var name : String { placemark.name }
     public var thoroughfare : String { placemark.thoroughfare }
@@ -204,7 +203,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         self.location = CLLocation(latitude: 0, longitude: 0)
         self.timestamp = Date()
         self.locale = Locale.current
-        let none = CompactPlacemark.bundle.localizedString(forKey: "NO_LOCATION", value: "xx No Location", table: nil)
+        let none = Bundle.module.localizedString(forKey: "NO_LOCATION", value: "xx No Location", table: nil)
         self.placemark = Place(name:none)
     }
     
@@ -228,7 +227,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         }
         if Locale.current.currencyCode != locale.currencyCode {
             if locale.currencyCode != locale.currencySymbol {
-                let format = Bundle.module.localizedString(forKey: "FUEL_PRICE_FORMAT", value: "%1@ %2@", table: nil)
+                let format = Bundle.module.localizedString(forKey: "PRICE_FORMAT", value: "%1@ %2@", table: nil)
                 priceString = String(format:format,
                                    priceString, self.currencyCode)
             }
@@ -560,7 +559,7 @@ internal struct CompactFuelIndex {
     
     static func lookup(isoCode: String) -> CompactFuelIndex {
         if index == nil {
-            if let url = Bundle.main.url(forResource: "gasoline_index", withExtension: "json") {
+            if let url = Bundle.module.url(forResource: "gasoline_index", withExtension: "json") {
                 do {
                     let contents = try Data(contentsOf:url)
                     if let info = try JSONSerialization.jsonObject(with: contents, options:[]) as? Dictionary<String,Dictionary<String,Any>> {

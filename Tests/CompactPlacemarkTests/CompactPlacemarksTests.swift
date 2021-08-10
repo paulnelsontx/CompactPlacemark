@@ -5,11 +5,23 @@
 
     final class CompactPlacemarksTests: XCTestCase {
         var subscriptions = Set<AnyCancellable>()
-        func testLocations() {
-            // This is an example of a functional test case.
-            // Use XCTAssert and related functions to verify your tests produce the correct
-            // results.
-            // clear cache first -
+        var locations = [CLLocation]()
+        let names = ["dallas", "brisbane", "istanbul", "montreal", "parisFrance", "mexicoCity", "nairobi", "shenzen", "grenada", "baghdad", "moscow", "mangua"]
+        let checks = [("$","", "en_US"), // because it is in the current locale, no currenceCode
+                      ("$"," AUD", "en_AU"),  // brisbane
+                      ("₺"," TRY", "en_TR"),  // istanbul
+                      ("$"," CAD", "en_CA"),  // montreal
+                      ("€"," EUR", "en_FR"),  // paris
+                      ("$", " MXN", "en_MX"), // mexico
+                      ("Ksh\u{00A0}"," KES", "en_KE"),  // nairobi
+                      ("¥"," CNY", "en_CN"),  // shenzen
+                      ("$"," XCD", "en_GD"),  // grenada
+                      ("٣"," IQD", "ckb_IQ"),  // baghdad
+                      ("$","", "en_RU"),  // moscow
+                      ("C"," NIO", "es_NI")     // managua
+            ]
+        override func setUp() {
+            super.setUp()
             let dallas = CLLocation(latitude: 32.779167, longitude: -96.808889)
             let brisbane = CLLocation(latitude: -27.467778, longitude: 153.028056)
             let istanbul = CLLocation(latitude: 41.013611, longitude: 28.955)
@@ -21,21 +33,15 @@
             let stgeorges = CLLocation(latitude: 12.05, longitude: -61.75)
             let baghdad = CLLocation(latitude: 33.333333, longitude: 44.383333)
             let moscow = CLLocation(latitude: 55.755833, longitude: 37.617222)
+            let managua = CLLocation(latitude: 12.136389, longitude: -86.251389)
+            self.locations = [dallas, brisbane, istanbul, montreal, parisFrance, mexicoCity, nairobi, shenzen, stgeorges, baghdad, moscow, managua]
+        }
 
-            let locations = [dallas, brisbane, istanbul, montreal, parisFrance, mexicoCity, nairobi, shenzen, stgeorges, baghdad, moscow]
-            let names = ["dallas", "brisbane", "istanbul", "montreal", "parisFrance", "mexicoCity", "nairobi", "shenzen", "grenada", "baghdad", "moscow"]
-            let checks = [("$","", "en_US"), // because it is in the current locale, no currenceCode
-                          ("$"," AUD", "en_AU"),  // brisbane
-                          ("₺"," TRY", "en_TR"),  // istanbul
-                          ("$"," CAD", "en_CA"),  // montreal
-                          ("€"," EUR", "en_FR"),  // paris
-                          ("$", " MXN", "en_MX"), // mexico
-                          ("Ksh\u{00A0}"," KES", "en_KE"),  // nairobi
-                          ("¥"," CNY", "en_CN"),  // shenzen
-                          ("$"," XCD", "en_GD"),  // grenada
-                          ("٣"," IQD", "ckb_IQ"),  // baghdad
-                          ("$","", "en_RU"),  // moscow
-                ]
+        func testLocations() {
+            // This is an example of a functional test case.
+            // Use XCTAssert and related functions to verify your tests produce the correct
+            // results.
+            // clear cache first -
 
             CompactPlacemark.deleteCache()
             var expectations = [XCTestExpectation]()
@@ -97,6 +103,13 @@
                 } else {
                     XCTFail("NumberFormatter failed for locale \(localeID)")
                }
+                if localeID == "en_GD" {
+                    // test imperial gallons
+                    XCTAssert( placemark.quantityCode == "IG", "Grenada quantityCode \(placemark.quantityCode) != IG")
+                } else if localeID == "es_NI" {
+                    // test for liters
+                    XCTAssert( placemark.quantityCode == "Ltr", "Managua quantityCode \(placemark.quantityCode) != Ltr")
+                }
             }
         }
     }

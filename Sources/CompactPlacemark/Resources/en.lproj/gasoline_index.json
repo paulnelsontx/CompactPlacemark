@@ -1,0 +1,29 @@
+{
+    "US": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "BS": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "BZ": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "CO": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "DO": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "EC": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "GT": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "HN": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "HT": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "LR": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "PE": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    
+    "AS": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "FM": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "MH": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+    "PW": { "factor":3.78541, "long":"FUEL_QUANTITY_LONG", "short":"FUEL_QUANTITY_SHORT", "econ":"MPG"},
+
+    "NI": { "factor":1.0, "long":"FUEL_QUANTITY_METRIC_LONG", "short":"FUEL_QUANTITY_METRIC_SHORT", "econ":"KPL"},
+
+    "AI": { "factor":4.54609, "long":"FUEL_QUANTITY_IMPERIAL_LONG", "short":"FUEL_QUANTITY_IMPERIAL_SHORT", "econ":"MPG"},
+    "AG": { "factor":4.54609, "long":"FUEL_QUANTITY_IMPERIAL_LONG", "short":"FUEL_QUANTITY_IMPERIAL_SHORT", "econ":"MPG"},
+    "DM": { "factor":4.54609, "long":"FUEL_QUANTITY_IMPERIAL_LONG", "short":"FUEL_QUANTITY_IMPERIAL_SHORT", "econ":"MPG"},
+    "GD": { "factor":4.54609, "long":"FUEL_QUANTITY_IMPERIAL_LONG", "short":"FUEL_QUANTITY_IMPERIAL_SHORT", "econ":"MPG"},
+    "KN": { "factor":4.54609, "long":"FUEL_QUANTITY_IMPERIAL_LONG", "short":"FUEL_QUANTITY_IMPERIAL_SHORT", "econ":"MPG"},
+    "KY": { "factor":4.54609, "long":"FUEL_QUANTITY_IMPERIAL_LONG", "short":"FUEL_QUANTITY_IMPERIAL_SHORT", "econ":"MPG"},
+    "LC": { "factor":4.54609, "long":"FUEL_QUANTITY_IMPERIAL_LONG", "short":"FUEL_QUANTITY_IMPERIAL_SHORT", "econ":"MPG"},
+    "MS": { "factor":4.54609, "long":"FUEL_QUANTITY_IMPERIAL_LONG", "short":"FUEL_QUANTITY_IMPERIAL_SHORT", "econ":"MPG"},
+}

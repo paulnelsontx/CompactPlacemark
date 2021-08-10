@@ -22,7 +22,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "CompactPlacemark",
-            dependencies: []),
+            dependencies: [],
+            resources: [ .copy("gasoline_index.json")]
+        ),
         .testTarget(
             name: "CompactPlacemarkTests",
             dependencies: ["CompactPlacemark"]),
