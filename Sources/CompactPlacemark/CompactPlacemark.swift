@@ -14,7 +14,7 @@ import os
 
 public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationProtocol {
 
-    let location : CLLocation
+    public let location : CLLocation
     @Published var placemark : Place
     @Published var locale : Locale?
     private(set) var timestamp : Date
@@ -292,7 +292,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         }
     }
     
-    func encoded() -> Data? {
+    public func encoded() -> Data? {
         let doubles = [
             self.location.coordinate.latitude,
             self.location.coordinate.longitude,
@@ -324,7 +324,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         }
     }
     
-    var address : String {
+    public var address : String {
         var addr = ""
         if placemark.thoroughfare.count > 0 {
             addr += placemark.thoroughfare
