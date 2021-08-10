@@ -12,7 +12,7 @@ import CoreLocation
 import Contacts
 import os
 
-class CompactPlacemark : ObservableObject, Identifiable, PacedOperationProtocol {
+public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationProtocol {
 
     let location : CLLocation
     @Published var placemark : Place

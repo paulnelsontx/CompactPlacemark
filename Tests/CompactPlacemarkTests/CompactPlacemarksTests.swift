@@ -48,7 +48,6 @@
                 let placemark = CompactPlacemark(location:location)
                 placemark.publisher.receive(on: DispatchQueue.main).sink { pm in
                     expect.fulfill()
-                    print("\(pm.placemark.name), \(pm.placemark.postalCode)")
                 }.store(in: &subscriptions)
                 placemarks.append(placemark)
             }
