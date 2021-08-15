@@ -1,0 +1,2002 @@
+[
+   {
+      "city" : "Hoboken, NJ, USA",
+      "lat" : 40.745255,
+      "long" : -74.034775
+   },
+   {
+      "city" : "Port Hueneme, CA, the US",
+      "lat" : 34.155834,
+      "long" : -119.202789
+   },
+   {
+      "city" : "Auburn, NY, USA",
+      "lat" : 42.933334,
+      "long" : -76.566666
+   },
+   {
+      "city" : "Jamestown, NY, the US",
+      "lat" : 42.095554,
+      "long" : -79.238609
+   },
+   {
+      "city" : "Fulton, MO, USA",
+      "lat" : 38.846668,
+      "long" : -91.948059
+   },
+   {
+      "city" : "Bedford, OH, the US",
+      "lat" : 41.392502,
+      "long" : -81.534447
+   },
+   {
+      "city" : "Stuart, FL, USA",
+      "lat" : 27.192223,
+      "long" : -80.243057
+   },
+   {
+      "city" : "San Angelo, TX, USA",
+      "lat" : 31.442778,
+      "long" : -100.450279
+   },
+   {
+      "city" : "Woodbridge, NJ, USA",
+      "lat" : 40.560001,
+      "long" : -74.290001
+   },
+   {
+      "city" : "Vista, CA, USA",
+      "lat" : 33.193611,
+      "long" : -117.241112
+   },
+   {
+      "city" : "South Bend, IN, USA",
+      "lat" : 41.676388,
+      "long" : -86.250275
+   },
+   {
+      "city" : "Davenport, IA, USA",
+      "lat" : 41.543056,
+      "long" : -90.590836
+   },
+   {
+      "city" : "Sparks, NV, USA",
+      "lat" : 39.554443,
+      "long" : -119.735558
+   },
+   {
+      "city" : "Green Bay, WI, the US",
+      "lat" : 44.513332,
+      "long" : -88.015831
+   },
+   {
+      "city" : "San Mateo, CA, USA",
+      "lat" : 37.554169,
+      "long" : -122.313057
+   },
+   {
+      "city" : "Tyler, TX, USA",
+      "lat" : 32.349998,
+      "long" : -95.300003
+   },
+   {
+      "city" : "League City, TX, USA",
+      "lat" : 29.499722,
+      "long" : -95.089722
+   },
+   {
+      "city" : "Lewisville, TX, USA",
+      "lat" : 33.038334,
+      "long" : -97.006111
+   },
+   {
+      "city" : "Meridian, ID, USA",
+      "lat" : 43.614166,
+      "long" : -116.398888
+   },
+   {
+      "city" : "Waterbury, CT, USA",
+      "lat" : 41.55611,
+      "long" : -73.041389
+   },
+   {
+      "city" : "Jurupa Valley, CA, USA",
+      "lat" : 34,
+      "long" : -117.48333
+   },
+   {
+      "city" : "West Palm Beach, FL, USA",
+      "lat" : 26.709723,
+      "long" : -80.064163
+   },
+   {
+      "city" : "Antioch, CA, USA",
+      "lat" : 38.005001,
+      "long" : -121.805832
+   },
+   {
+      "city" : "High Point, NC, USA",
+      "lat" : 35.970554,
+      "long" : -79.997498
+   },
+   {
+      "city" : "Miami Gardens, FL, USA",
+      "lat" : 25.942122,
+      "long" : -80.26992
+   },
+   {
+      "city" : "Murrieta, CA, USA",
+      "lat" : 33.569443,
+      "long" : -117.202499
+   },
+   {
+      "city" : "Springfield, IL, USA",
+      "lat" : 39.799999,
+      "long" : -89.650002
+   },
+   {
+      "city" : "El Monte, CA, USA",
+      "lat" : 34.073334,
+      "long" : -118.027496
+   },
+   {
+      "city" : "West Jordan, UT, USA",
+      "lat" : 40.606388,
+      "long" : -111.976112
+   },
+   {
+      "city" : "College Station, TX, USA",
+      "lat" : 30.601389,
+      "long" : -96.314445
+   },
+   {
+      "city" : "Fairfield, CA, USA",
+      "lat" : 38.257778,
+      "long" : -122.054169
+   },
+   {
+      "city" : "Evansville, IN, USA",
+      "lat" : 37.977222,
+      "long" : -87.550552
+   },
+   {
+      "city" : "Cambridge, MA, USA",
+      "lat" : 42.373611,
+      "long" : -71.110558
+   },
+   {
+      "city" : "Richardson, TX, USA",
+      "lat" : 32.965557,
+      "long" : -96.715836
+   },
+   {
+      "city" : "Berkeley, CA, USA",
+      "lat" : 37.871666,
+      "long" : -122.272781
+   },
+   {
+      "city" : "Columbia, MS, USA",
+      "lat" : 38.951561,
+      "long" : -92.328636
+   },
+   {
+      "city" : "Athens, GA, USA",
+      "lat" : 33.950001,
+      "long" : -83.383331
+   },
+   {
+      "city" : "Lafayette, LA, USA",
+      "lat" : 30.216667,
+      "long" : -92.033333
+   },
+   {
+      "city" : "Sterling Heights, MI, USA",
+      "lat" : 42.580276,
+      "long" : -83.030281
+   },
+   {
+      "city" : "Visalia, CA, USA",
+      "lat" : 36.316666,
+      "long" : -119.300003
+   },
+   {
+      "city" : "Hampton, VA, USA",
+      "lat" : 37.034946,
+      "long" : -76.360123
+   },
+   {
+      "city" : "West Valley City, UT, USA",
+      "lat" : 40.689167,
+      "long" : -111.993889
+   },
+   {
+      "city" : "Surprise, AZ, USA",
+      "lat" : 33.630554,
+      "long" : -112.366669
+   },
+   {
+      "city" : "Thornton, CO, USA",
+      "lat" : 39.903057,
+      "long" : -104.954445
+   },
+   {
+      "city" : "Miramar, FL, USA",
+      "lat" : 25.978889,
+      "long" : -80.282501
+   },
+   {
+      "city" : "Murfreesboro, TN, USA",
+      "lat" : 35.846111,
+      "long" : -86.391945
+   },
+   {
+      "city" : "Pasadena, CA, USA",
+      "lat" : 34.156113,
+      "long" : -118.131943
+   },
+   {
+      "city" : "Bridgeport, CT, USA",
+      "lat" : 41.18639,
+      "long" : -73.195557
+   },
+   {
+      "city" : "Paterson, NJ, USA",
+      "lat" : 40.914745,
+      "long" : -74.162827
+   },
+   {
+      "city" : "Rockford, Il, the US",
+      "lat" : 42.259445,
+      "long" : -89.064445
+   },
+   {
+      "city" : "Joliet, Illinois, USA",
+      "lat" : 41.520557,
+      "long" : -88.150558
+   },
+   {
+      "city" : "Escondido, CA, USA",
+      "lat" : 33.124722,
+      "long" : -117.080833
+   },
+   {
+      "city" : "Kansas City, KS, USA",
+      "lat" : 39.106667,
+      "long" : -94.676392
+   },
+   {
+      "city" : "Springfield, MA, USA",
+      "lat" : 42.101391,
+      "long" : -72.590279
+   },
+   {
+      "city" : "Springfield, MO, USA",
+      "lat" : 37.210388,
+      "long" : -93.297256
+   },
+   {
+      "city" : "Corona, CA, USA",
+      "lat" : 33.866669,
+      "long" : -117.566666
+   },
+   {
+      "city" : "Pembroke Pines, FL, USA",
+      "lat" : 26.012501,
+      "long" : -80.313614
+   },
+   {
+      "city" : "Elk Grove, CA, USA",
+      "lat" : 38.438332,
+      "long" : -121.381943
+   },
+   {
+      "city" : "Oceanside, CA, the US",
+      "lat" : 33.211666,
+      "long" : -117.325836
+   },
+   {
+      "city" : "Newport News, VA, USA",
+      "lat" : 37.070831,
+      "long" : -76.484444
+   },
+   {
+      "city" : "Sioux Falls, South Dakota, the US",
+      "lat" : 43.536388,
+      "long" : -96.731667
+   },
+   {
+      "city" : "Vancouver, WA, USA",
+      "lat" : 45.633331,
+      "long" : -122.599998
+   },
+   {
+      "city" : "Worcester, MA, USA",
+      "lat" : 42.271389,
+      "long" : -71.798889
+   },
+   {
+      "city" : "Tallahassee, FL, USA",
+      "lat" : 30.455,
+      "long" : -84.253334
+   },
+   {
+      "city" : "Columbus, GA, USA",
+      "lat" : 32.492222,
+      "long" : -84.940277
+   },
+   {
+      "city" : "Augusta, GA, USA",
+      "lat" : 33.466667,
+      "long" : -81.966667
+   },
+   {
+      "city" : "Montgomery, AL, USA",
+      "lat" : 32.361668,
+      "long" : -86.279167
+   },
+   {
+      "city" : "Aurora, IL, USA",
+      "lat" : 41.763889,
+      "long" : -88.290001
+   },
+   {
+      "city" : "Amarillo, TX, USA",
+      "lat" : 35.199165,
+      "long" : -101.845276
+   },
+   {
+      "city" : "Modesto, CA, USA",
+      "lat" : 37.661388,
+      "long" : -120.994446
+   },
+   {
+      "city" : "Garland, TX, USA",
+      "lat" : 32.907223,
+      "long" : -96.635277
+   },
+   {
+      "city" : "Irvine, CA, the US",
+      "lat" : 33.669445,
+      "long" : -117.823059
+   },
+   {
+      "city" : "Aurora, CO, USA",
+      "lat" : 39.710835,
+      "long" : -104.8125
+   },
+   {
+      "city" : "Arlington, TX, USA",
+      "lat" : 32.705002,
+      "long" : -97.12278
+   },
+   {
+      "city" : "Kansas City, MO, USA",
+      "lat" : 39.099724,
+      "long" : -94.578331
+   },
+   {
+      "city" : "Memphis, TN, USA",
+      "lat" : 35.1175,
+      "long" : -89.971107
+   },
+   {
+      "city" : "Indianapolis, IN, USA",
+      "lat" : 39.791,
+      "long" : -86.148003
+   },
+   {
+      "city" : "Columbus, OH, USA",
+      "lat" : 39.983334,
+      "long" : -82.98333
+   },
+   {
+      "city" : "Austin, TX, the US",
+      "lat" : 30.266666,
+      "long" : -97.73333
+   },
+   {
+      "city" : "Dallas, TX, the US",
+      "lat" : 32.779167,
+      "long" : -96.808891
+   },
+   {
+      "city" : "Redwood City, CA, USA",
+      "lat" : 37.487846,
+      "long" : -122.236115
+   },
+   {
+      "city" : "Gastonia, NC, the USA",
+      "lat" : 35.25528,
+      "long" : -81.180275
+   },
+   {
+      "city" : "New Braunfels, TX, the USA",
+      "lat" : 29.700001,
+      "long" : -98.116669
+   },
+   {
+      "city" : "Palm Beach Gardens, FL, USA",
+      "lat" : 26.838619,
+      "long" : -80.129967
+   },
+   {
+      "city" : "Forestville, CA, USA",
+      "lat" : 38.473625,
+      "long" : -122.889992
+   },
+   {
+      "city" : "Houston, TX, USA",
+      "lat" : 29.749907,
+      "long" : -95.358421
+   },
+   {
+      "city" : "Muncie, IN, USA",
+      "lat" : 40.191891,
+      "long" : -85.401695
+   },
+   {
+      "city" : "Palm Springs, CA, USA",
+      "lat" : 33.830517,
+      "long" : -116.545601
+   },
+   {
+      "city" : "Hot Springs, AR, USA",
+      "lat" : 34.496212,
+      "long" : -93.05722
+   },
+   {
+      "city" : "Richmond, VA, USA",
+      "lat" : 37.54129,
+      "long" : -77.434769
+   },
+   {
+      "city" : "Fayetteville, AR, USA",
+      "lat" : 36.082157,
+      "long" : -94.171852
+   },
+   {
+      "city" : "Yuma, AZ, USA",
+      "lat" : 32.698437,
+      "long" : -114.650398
+   },
+   {
+      "city" : "Peoria, AZ, USA",
+      "lat" : 33.580944,
+      "long" : -112.237068
+   },
+   {
+      "city" : "Tempe, AZ, USA",
+      "lat" : 33.427204,
+      "long" : -111.939896
+   },
+   {
+      "city" : "Diamond Bar, CA, USA",
+      "lat" : 34.028622,
+      "long" : -117.810333
+   },
+   {
+      "city" : "Auburn, AL, USA",
+      "lat" : 32.609856,
+      "long" : -85.480782
+   },
+   {
+      "city" : "Hoover, AL, USA",
+      "lat" : 33.405746,
+      "long" : -86.811546
+   },
+   {
+      "city" : "Decatur, AL, USA",
+      "lat" : 34.603817,
+      "long" : -86.985039
+   },
+   {
+      "city" : "Bloomington, MN, USA",
+      "lat" : 44.840797,
+      "long" : -93.298279
+   },
+   {
+      "city" : "Utqiagvik, AK, USA",
+      "lat" : 71.290558,
+      "long" : -156.788605
+   },
+   {
+      "city" : "Hoboken, NJ, USA",
+      "lat" : 40.745255,
+      "long" : -74.034775
+   },
+   {
+      "city" : "Port Hueneme, CA, the US",
+      "lat" : 34.155834,
+      "long" : -119.202789
+   },
+   {
+      "city" : "Auburn, NY, USA",
+      "lat" : 42.933334,
+      "long" : -76.566666
+   },
+   {
+      "city" : "Jamestown, NY, the US",
+      "lat" : 42.095554,
+      "long" : -79.238609
+   },
+   {
+      "city" : "Fulton, MO, USA",
+      "lat" : 38.846668,
+      "long" : -91.948059
+   },
+   {
+      "city" : "Bedford, OH, the US",
+      "lat" : 41.392502,
+      "long" : -81.534447
+   },
+   {
+      "city" : "Stuart, FL, USA",
+      "lat" : 27.192223,
+      "long" : -80.243057
+   },
+   {
+      "city" : "San Angelo, TX, USA",
+      "lat" : 31.442778,
+      "long" : -100.450279
+   },
+   {
+      "city" : "Woodbridge, NJ, USA",
+      "lat" : 40.560001,
+      "long" : -74.290001
+   },
+   {
+      "city" : "Vista, CA, USA",
+      "lat" : 33.193611,
+      "long" : -117.241112
+   },
+   {
+      "city" : "South Bend, IN, USA",
+      "lat" : 41.676388,
+      "long" : -86.250275
+   },
+   {
+      "city" : "Davenport, IA, USA",
+      "lat" : 41.543056,
+      "long" : -90.590836
+   },
+   {
+      "city" : "Sparks, NV, USA",
+      "lat" : 39.554443,
+      "long" : -119.735558
+   },
+   {
+      "city" : "Green Bay, WI, the US",
+      "lat" : 44.513332,
+      "long" : -88.015831
+   },
+   {
+      "city" : "San Mateo, CA, USA",
+      "lat" : 37.554169,
+      "long" : -122.313057
+   },
+   {
+      "city" : "Tyler, TX, USA",
+      "lat" : 32.349998,
+      "long" : -95.300003
+   },
+   {
+      "city" : "League City, TX, USA",
+      "lat" : 29.499722,
+      "long" : -95.089722
+   },
+   {
+      "city" : "Lewisville, TX, USA",
+      "lat" : 33.038334,
+      "long" : -97.006111
+   },
+   {
+      "city" : "Meridian, ID, USA",
+      "lat" : 43.614166,
+      "long" : -116.398888
+   },
+   {
+      "city" : "Waterbury, CT, USA",
+      "lat" : 41.55611,
+      "long" : -73.041389
+   },
+   {
+      "city" : "Jurupa Valley, CA, USA",
+      "lat" : 34,
+      "long" : -117.48333
+   },
+   {
+      "city" : "West Palm Beach, FL, USA",
+      "lat" : 26.709723,
+      "long" : -80.064163
+   },
+   {
+      "city" : "Antioch, CA, USA",
+      "lat" : 38.005001,
+      "long" : -121.805832
+   },
+   {
+      "city" : "High Point, NC, USA",
+      "lat" : 35.970554,
+      "long" : -79.997498
+   },
+   {
+      "city" : "Miami Gardens, FL, USA",
+      "lat" : 25.942122,
+      "long" : -80.26992
+   },
+   {
+      "city" : "Murrieta, CA, USA",
+      "lat" : 33.569443,
+      "long" : -117.202499
+   },
+   {
+      "city" : "Springfield, IL, USA",
+      "lat" : 39.799999,
+      "long" : -89.650002
+   },
+   {
+      "city" : "El Monte, CA, USA",
+      "lat" : 34.073334,
+      "long" : -118.027496
+   },
+   {
+      "city" : "West Jordan, UT, USA",
+      "lat" : 40.606388,
+      "long" : -111.976112
+   },
+   {
+      "city" : "College Station, TX, USA",
+      "lat" : 30.601389,
+      "long" : -96.314445
+   },
+   {
+      "city" : "Fairfield, CA, USA",
+      "lat" : 38.257778,
+      "long" : -122.054169
+   },
+   {
+      "city" : "Evansville, IN, USA",
+      "lat" : 37.977222,
+      "long" : -87.550552
+   },
+   {
+      "city" : "Cambridge, MA, USA",
+      "lat" : 42.373611,
+      "long" : -71.110558
+   },
+   {
+      "city" : "Richardson, TX, USA",
+      "lat" : 32.965557,
+      "long" : -96.715836
+   },
+   {
+      "city" : "Berkeley, CA, USA",
+      "lat" : 37.871666,
+      "long" : -122.272781
+   },
+   {
+      "city" : "Columbia, MS, USA",
+      "lat" : 38.951561,
+      "long" : -92.328636
+   },
+   {
+      "city" : "Athens, GA, USA",
+      "lat" : 33.950001,
+      "long" : -83.383331
+   },
+   {
+      "city" : "Lafayette, LA, USA",
+      "lat" : 30.216667,
+      "long" : -92.033333
+   },
+   {
+      "city" : "Sterling Heights, MI, USA",
+      "lat" : 42.580276,
+      "long" : -83.030281
+   },
+   {
+      "city" : "Visalia, CA, USA",
+      "lat" : 36.316666,
+      "long" : -119.300003
+   },
+   {
+      "city" : "Hampton, VA, USA",
+      "lat" : 37.034946,
+      "long" : -76.360123
+   },
+   {
+      "city" : "West Valley City, UT, USA",
+      "lat" : 40.689167,
+      "long" : -111.993889
+   },
+   {
+      "city" : "Surprise, AZ, USA",
+      "lat" : 33.630554,
+      "long" : -112.366669
+   },
+   {
+      "city" : "Thornton, CO, USA",
+      "lat" : 39.903057,
+      "long" : -104.954445
+   },
+   {
+      "city" : "Miramar, FL, USA",
+      "lat" : 25.978889,
+      "long" : -80.282501
+   },
+   {
+      "city" : "Murfreesboro, TN, USA",
+      "lat" : 35.846111,
+      "long" : -86.391945
+   },
+   {
+      "city" : "Pasadena, CA, USA",
+      "lat" : 34.156113,
+      "long" : -118.131943
+   },
+   {
+      "city" : "Bridgeport, CT, USA",
+      "lat" : 41.18639,
+      "long" : -73.195557
+   },
+   {
+      "city" : "Paterson, NJ, USA",
+      "lat" : 40.914745,
+      "long" : -74.162827
+   },
+   {
+      "city" : "Rockford, Il, the US",
+      "lat" : 42.259445,
+      "long" : -89.064445
+   },
+   {
+      "city" : "Joliet, Illinois, USA",
+      "lat" : 41.520557,
+      "long" : -88.150558
+   },
+   {
+      "city" : "Escondido, CA, USA",
+      "lat" : 33.124722,
+      "long" : -117.080833
+   },
+   {
+      "city" : "Kansas City, KS, USA",
+      "lat" : 39.106667,
+      "long" : -94.676392
+   },
+   {
+      "city" : "Springfield, MA, USA",
+      "lat" : 42.101391,
+      "long" : -72.590279
+   },
+   {
+      "city" : "Springfield, MO, USA",
+      "lat" : 37.210388,
+      "long" : -93.297256
+   },
+   {
+      "city" : "Corona, CA, USA",
+      "lat" : 33.866669,
+      "long" : -117.566666
+   },
+   {
+      "city" : "Pembroke Pines, FL, USA",
+      "lat" : 26.012501,
+      "long" : -80.313614
+   },
+   {
+      "city" : "Elk Grove, CA, USA",
+      "lat" : 38.438332,
+      "long" : -121.381943
+   },
+   {
+      "city" : "Oceanside, CA, the US",
+      "lat" : 33.211666,
+      "long" : -117.325836
+   },
+   {
+      "city" : "Newport News, VA, USA",
+      "lat" : 37.070831,
+      "long" : -76.484444
+   },
+   {
+      "city" : "Sioux Falls, South Dakota, the US",
+      "lat" : 43.536388,
+      "long" : -96.731667
+   },
+   {
+      "city" : "Vancouver, WA, USA",
+      "lat" : 45.633331,
+      "long" : -122.599998
+   },
+   {
+      "city" : "Worcester, MA, USA",
+      "lat" : 42.271389,
+      "long" : -71.798889
+   },
+   {
+      "city" : "Tallahassee, FL, USA",
+      "lat" : 30.455,
+      "long" : -84.253334
+   },
+   {
+      "city" : "Columbus, GA, USA",
+      "lat" : 32.492222,
+      "long" : -84.940277
+   },
+   {
+      "city" : "Augusta, GA, USA",
+      "lat" : 33.466667,
+      "long" : -81.966667
+   },
+   {
+      "city" : "Montgomery, AL, USA",
+      "lat" : 32.361668,
+      "long" : -86.279167
+   },
+   {
+      "city" : "Aurora, IL, USA",
+      "lat" : 41.763889,
+      "long" : -88.290001
+   },
+   {
+      "city" : "Amarillo, TX, USA",
+      "lat" : 35.199165,
+      "long" : -101.845276
+   },
+   {
+      "city" : "Modesto, CA, USA",
+      "lat" : 37.661388,
+      "long" : -120.994446
+   },
+   {
+      "city" : "Garland, TX, USA",
+      "lat" : 32.907223,
+      "long" : -96.635277
+   },
+   {
+      "city" : "Irvine, CA, the US",
+      "lat" : 33.669445,
+      "long" : -117.823059
+   },
+   {
+      "city" : "Aurora, CO, USA",
+      "lat" : 39.710835,
+      "long" : -104.8125
+   },
+   {
+      "city" : "Arlington, TX, USA",
+      "lat" : 32.705002,
+      "long" : -97.12278
+   },
+   {
+      "city" : "Kansas City, MO, USA",
+      "lat" : 39.099724,
+      "long" : -94.578331
+   },
+   {
+      "city" : "Memphis, TN, USA",
+      "lat" : 35.1175,
+      "long" : -89.971107
+   },
+   {
+      "city" : "Indianapolis, IN, USA",
+      "lat" : 39.791,
+      "long" : -86.148003
+   },
+   {
+      "city" : "Columbus, OH, USA",
+      "lat" : 39.983334,
+      "long" : -82.98333
+   },
+   {
+      "city" : "Austin, TX, the US",
+      "lat" : 30.266666,
+      "long" : -97.73333
+   },
+   {
+      "city" : "Dallas, TX, the US",
+      "lat" : 32.779167,
+      "long" : -96.808891
+   },
+   {
+      "city" : "Redwood City, CA, USA",
+      "lat" : 37.487846,
+      "long" : -122.236115
+   },
+   {
+      "city" : "Gastonia, NC, the USA",
+      "lat" : 35.25528,
+      "long" : -81.180275
+   },
+   {
+      "city" : "New Braunfels, TX, the USA",
+      "lat" : 29.700001,
+      "long" : -98.116669
+   },
+   {
+      "city" : "Palm Beach Gardens, FL, USA",
+      "lat" : 26.838619,
+      "long" : -80.129967
+   },
+   {
+      "city" : "Forestville, CA, USA",
+      "lat" : 38.473625,
+      "long" : -122.889992
+   },
+   {
+      "city" : "Houston, TX, USA",
+      "lat" : 29.749907,
+      "long" : -95.358421
+   },
+   {
+      "city" : "Muncie, IN, USA",
+      "lat" : 40.191891,
+      "long" : -85.401695
+   },
+   {
+      "city" : "Palm Springs, CA, USA",
+      "lat" : 33.830517,
+      "long" : -116.545601
+   },
+   {
+      "city" : "Hot Springs, AR, USA",
+      "lat" : 34.496212,
+      "long" : -93.05722
+   },
+   {
+      "city" : "Richmond, VA, USA",
+      "lat" : 37.54129,
+      "long" : -77.434769
+   },
+   {
+      "city" : "Fayetteville, AR, USA",
+      "lat" : 36.082157,
+      "long" : -94.171852
+   },
+   {
+      "city" : "Yuma, AZ, USA",
+      "lat" : 32.698437,
+      "long" : -114.650398
+   },
+   {
+      "city" : "Peoria, AZ, USA",
+      "lat" : 33.580944,
+      "long" : -112.237068
+   },
+   {
+      "city" : "Tempe, AZ, USA",
+      "lat" : 33.427204,
+      "long" : -111.939896
+   },
+   {
+      "city" : "Diamond Bar, CA, USA",
+      "lat" : 34.028622,
+      "long" : -117.810333
+   },
+   {
+      "city" : "Auburn, AL, USA",
+      "lat" : 32.609856,
+      "long" : -85.480782
+   },
+   {
+      "city" : "Hoover, AL, USA",
+      "lat" : 33.405746,
+      "long" : -86.811546
+   },
+   {
+      "city" : "Decatur, AL, USA",
+      "lat" : 34.603817,
+      "long" : -86.985039
+   },
+   {
+      "city" : "Bloomington, MN, USA",
+      "lat" : 44.840797,
+      "long" : -93.298279
+   },
+   {
+      "city" : "Utqiagvik, AK, USA",
+      "lat" : 71.290558,
+      "long" : -156.788605
+   },
+   {
+      "city" : "Phoenix, AZ, USA",
+      "lat" : 33.448376,
+      "long" : -112.074036
+   },
+   {
+      "city" : "Erie, PA, USA",
+      "lat" : 42.129223,
+      "long" : -80.08506
+   },
+   {
+      "city" : "Victorville, CA, USA",
+      "lat" : 34.536217,
+      "long" : -117.292763
+   },
+   {
+      "city" : "Wilmington, DE, USA",
+      "lat" : 39.739071,
+      "long" : -75.539787
+   },
+   {
+      "city" : "Fontana, CA, USA",
+      "lat" : 34.092232,
+      "long" : -117.435051
+   },
+   {
+      "city" : "Jacksonville, FL, USA",
+      "lat" : 30.332184,
+      "long" : -81.655647
+   },
+   {
+      "city" : "Soulsbyville, CA, USA",
+      "lat" : 37.984646,
+      "long" : -120.263802
+   },
+   {
+      "city" : "Corvallis, OR, USA",
+      "lat" : 44.564568,
+      "long" : -123.262047
+   },
+   {
+      "city" : "North Pole, AK, USA",
+      "lat" : 64.751114,
+      "long" : -147.349442
+   },
+   {
+      "city" : "Des Plaines, IL, USA",
+      "lat" : 42.033363,
+      "long" : -87.8834
+   },
+   {
+      "city" : "Richmond, CA, USA",
+      "lat" : 37.935757,
+      "long" : -122.347748
+   },
+   {
+      "city" : "Grifton, NC, USA",
+      "lat" : 35.372662,
+      "long" : -77.437462
+   },
+   {
+      "city" : "Redmond, WA, USA",
+      "lat" : 47.673988,
+      "long" : -122.121513
+   },
+   {
+      "city" : "San Leandro, Oakland, CA, USA",
+      "lat" : 37.725685,
+      "long" : -122.15683
+   },
+   {
+      "city" : "East Point, GA, USA",
+      "lat" : 33.679554,
+      "long" : -84.439369
+   },
+   {
+      "city" : "Russellville, AL, USA",
+      "lat" : 34.501942,
+      "long" : -87.731789
+   },
+   {
+      "city" : "Dothan, AL, USA",
+      "lat" : 31.223812,
+      "long" : -85.393356
+   },
+   {
+      "city" : "Tampa, FL, USA",
+      "lat" : 27.964157,
+      "long" : -82.452606
+   },
+   {
+      "city" : "Kenosha, WI, USA",
+      "lat" : 42.588081,
+      "long" : -87.822899
+   },
+   {
+      "city" : "Springfield, OR, USA",
+      "lat" : 44.046204,
+      "long" : -123.023346
+   },
+   {
+      "city" : "Revere, MA, USA",
+      "lat" : 42.408428,
+      "long" : -71.011993
+   },
+   {
+      "city" : "New Haven, CT, USA",
+      "lat" : 41.310726,
+      "long" : -72.929916
+   },
+   {
+      "city" : "Port Orange, FL, USA",
+      "lat" : 29.138315,
+      "long" : -80.995613
+   },
+   {
+      "city" : "Manhattan, KS, USA",
+      "lat" : 39.183609,
+      "long" : -96.571671
+   },
+   {
+      "city" : "Jeannette, PA, USA",
+      "lat" : 40.328125,
+      "long" : -79.615318
+   },
+   {
+      "city" : "Baldwin Park, CA, USA",
+      "lat" : 34.085285,
+      "long" : -117.960899
+   },
+   {
+      "city" : "El Centro, CA, USA",
+      "lat" : 32.793877,
+      "long" : -115.561516
+   },
+   {
+      "city" : "Lakewood, CO, USA",
+      "lat" : 39.71085,
+      "long" : -105.081505
+   },
+   {
+      "city" : "Fall River, MA, USA",
+      "lat" : 41.696629,
+      "long" : -71.149994
+   },
+   {
+      "city" : "Mt Prospect, IL, USA",
+      "lat" : 42.066418,
+      "long" : -87.937294
+   },
+   {
+      "city" : "Katy, TX, USA",
+      "lat" : 29.785786,
+      "long" : -95.824394
+   },
+   {
+      "city" : "Cary, NC, USA",
+      "lat" : 35.791538,
+      "long" : -78.78112
+   },
+   {
+      "city" : "Toms River, NJ, USA",
+      "lat" : 39.954639,
+      "long" : -74.198456
+   },
+   {
+      "city" : "Tigard, Portland, OR, USA",
+      "lat" : 45.431767,
+      "long" : -122.770454
+   },
+   {
+      "city" : "Clarksville, TN, USA",
+      "lat" : 36.531364,
+      "long" : -87.353767
+   },
+   {
+      "city" : "Kent, WA, USA",
+      "lat" : 47.37801,
+      "long" : -122.237381
+   },
+   {
+      "city" : "North Las Vegas, NV, USA",
+      "lat" : 36.201946,
+      "long" : -115.120216
+   },
+   {
+      "city" : "Walker, LA, USA",
+      "lat" : 30.487968,
+      "long" : -90.861488
+   },
+   {
+      "city" : "Canton, OH, USA",
+      "lat" : 40.798946,
+      "long" : -81.378448
+   },
+   {
+      "city" : "Macon, GA, USA",
+      "lat" : 32.838131,
+      "long" : -83.634705
+   },
+   {
+      "city" : "Bartlett, TN, USA",
+      "lat" : 35.204441,
+      "long" : -89.87381
+   },
+   {
+      "city" : "San Bernardino, CA, USA",
+      "lat" : 34.115784,
+      "long" : -117.302399
+   },
+   {
+      "city" : "Lynn, MA, USA",
+      "lat" : 42.466763,
+      "long" : -70.949493
+   },
+   {
+      "city" : "Evanston, IL, USA",
+      "lat" : 42.045597,
+      "long" : -87.688568
+   },
+   {
+      "city" : "Poway, CA, USA",
+      "lat" : 32.96273,
+      "long" : -117.03624
+   },
+   {
+      "city" : "Coffeyville, KS, USA",
+      "lat" : 37.036064,
+      "long" : -95.620537
+   },
+   {
+      "city" : "Rio Linda, CA, USA",
+      "lat" : 38.691013,
+      "long" : -121.448563
+   },
+   {
+      "city" : "Bellflower, CA, USA",
+      "lat" : 33.88221,
+      "long" : -118.117981
+   },
+   {
+      "city" : "Westland, MI, USA",
+      "lat" : 42.324268,
+      "long" : -83.399017
+   },
+   {
+      "city" : "Garden City, MI, USA",
+      "lat" : 42.325569,
+      "long" : -83.330933
+   },
+   {
+      "city" : "Meridian, ID, USA",
+      "lat" : 43.612343,
+      "long" : -116.393707
+   },
+   {
+      "city" : "Roswell, GA, USA",
+      "lat" : 34.022003,
+      "long" : -84.361549
+   },
+   {
+      "city" : "Johns Creek, GA, USA",
+      "lat" : 34.028927,
+      "long" : -84.198578
+   },
+   {
+      "city" : "New London, CT, USA",
+      "lat" : 41.355423,
+      "long" : -72.10276
+   },
+   {
+      "city" : "Hanford, CA, US",
+      "lat" : 36.327728,
+      "long" : -119.645912
+   },
+   {
+      "city" : "Saint Charles, MO, USA",
+      "lat" : 38.788105,
+      "long" : -90.497437
+   },
+   {
+      "city" : "Carrollton, TX, USA",
+      "lat" : 32.974586,
+      "long" : -96.8899
+   },
+   {
+      "city" : "Stamford, CT, USA",
+      "lat" : 41.053429,
+      "long" : -73.538734
+   },
+   {
+      "city" : "Ames, IA, USA",
+      "lat" : 42.034534,
+      "long" : -93.620369
+   },
+   {
+      "city" : "Inglewood, CA, USA",
+      "lat" : 33.961018,
+      "long" : -118.35537
+   },
+   {
+      "city" : "Maryville, TN, USA",
+      "lat" : 35.760059,
+      "long" : -83.96685
+   },
+   {
+      "city" : "Charleston, WV, USA",
+      "lat" : 38.349819,
+      "long" : -81.632622
+   },
+   {
+      "city" : "Las Cruces, NM, USA",
+      "lat" : 32.326595,
+      "long" : -106.775436
+   },
+   {
+      "city" : "Rochester Hills, MI, USA",
+      "lat" : 42.658516,
+      "long" : -83.152725
+   },
+   {
+      "city" : "Centennial, CO, USA",
+      "lat" : 39.579231,
+      "long" : -104.876694
+   },
+   {
+      "city" : "Lompoc, CA, USA",
+      "lat" : 34.639149,
+      "long" : -120.457939
+   },
+   {
+      "city" : "North Richland Hills, TX, USA",
+      "lat" : 32.834293,
+      "long" : -97.228905
+   },
+   {
+      "city" : "Lowell, MA, USA",
+      "lat" : 42.640999,
+      "long" : -71.316711
+   },
+   {
+      "city" : "Round Rock, TX, USA",
+      "lat" : 30.508255,
+      "long" : -97.678894
+   },
+   {
+      "city" : "Torrance, CA, USA",
+      "lat" : 33.840763,
+      "long" : -118.345413
+   },
+   {
+      "city" : "Champaign, IL, USA",
+      "lat" : 40.116421,
+      "long" : -88.243385
+   },
+   {
+      "city" : "Gary, IN, USA",
+      "lat" : 41.595161,
+      "long" : -87.356934
+   },
+   {
+      "city" : "Port Charlotte, FL, USA",
+      "lat" : 26.979605,
+      "long" : -82.075424
+   },
+   {
+      "city" : "Cedar Falls, IA, USA",
+      "lat" : 42.534901,
+      "long" : -92.445312
+   },
+   {
+      "city" : "Great Falls, MT, USA",
+      "lat" : 47.506187,
+      "long" : -111.283691
+   },
+   {
+      "city" : "Brentwood, TN, USA",
+      "lat" : 36.033115,
+      "long" : -86.782776
+   },
+   {
+      "city" : "Syracuse, NY, USA",
+      "lat" : 43.088947,
+      "long" : -76.15448
+   },
+   {
+      "city" : "Grand Saline, TX, USA",
+      "lat" : 32.673466,
+      "long" : -95.709404
+   },
+   {
+      "city" : "Ponte Vedra Beach, FL, USA",
+      "lat" : 30.240005,
+      "long" : -81.385262
+   },
+   {
+      "city" : "Abilene, TX, USA",
+      "lat" : 32.448734,
+      "long" : -99.733147
+   },
+   {
+      "city" : "Valdosta, GA, USA",
+      "lat" : 30.832703,
+      "long" : -83.278488
+   },
+   {
+      "city" : "The Villages, FL, USA",
+      "lat" : 28.927019,
+      "long" : -82.003761
+   },
+   {
+      "city" : "Casa Grande, AZ, USA",
+      "lat" : 32.881893,
+      "long" : -111.768036
+   },
+   {
+      "city" : "Carmel-by-the-Sea, CA, USA",
+      "lat" : 36.555241,
+      "long" : -121.923286
+   },
+   {
+      "city" : "Gresham Terrace, Gresham, OR, USA",
+      "lat" : 45.502842,
+      "long" : -122.427444
+   },
+   {
+      "city" : "Roseville, CA, USA",
+      "lat" : 38.752125,
+      "long" : -121.28801
+   },
+   {
+      "city" : "Eau Claire, WI, USA",
+      "lat" : 44.811348,
+      "long" : -91.498497
+   },
+   {
+      "city" : "Lake Charles, LA, USA",
+      "lat" : 30.212942,
+      "long" : -93.21891
+   },
+   {
+      "city" : "Biloxi, MS, USA",
+      "lat" : 30.396032,
+      "long" : -88.885307
+   },
+   {
+      "city" : "Perris, CA, USA",
+      "lat" : 33.78252,
+      "long" : -117.228645
+   },
+   {
+      "city" : "Beaverton, OR, USA",
+      "lat" : 45.485168,
+      "long" : -122.804489
+   },
+   {
+      "city" : "Mission Viejo, CA, USA",
+      "lat" : 33.600021,
+      "long" : -117.671997
+   },
+   {
+      "city" : "Madera, CA, USA",
+      "lat" : 36.95953,
+      "long" : -120.062866
+   },
+   {
+      "city" : "Bend, OR, USA",
+      "lat" : 44.058174,
+      "long" : -121.315308
+   },
+   {
+      "city" : "Greenville, SC, USA",
+      "lat" : 34.852619,
+      "long" : -82.394012
+   },
+   {
+      "city" : "North Fort Myers, FL, USA",
+      "lat" : 26.667294,
+      "long" : -81.880089
+   },
+   {
+      "city" : "Vacaville, CA, USA",
+      "lat" : 38.356579,
+      "long" : -121.987747
+   },
+   {
+      "city" : "Elgin, IL, USA",
+      "lat" : 42.035408,
+      "long" : -88.28257
+   },
+   {
+      "city" : "Hyrum, UT, USA",
+      "lat" : 41.632893,
+      "long" : -111.85112
+   },
+   {
+      "city" : "Cape Canaveral, Florida, USA",
+      "lat" : 28.396837,
+      "long" : -80.605659
+   },
+   {
+      "city" : "Encinitas, CA, USA",
+      "lat" : 33.039139,
+      "long" : -117.295425
+   },
+   {
+      "city" : "Ocala, FL, USA",
+      "lat" : 29.187199,
+      "long" : -82.140091
+   },
+   {
+      "city" : "Fremont, CA, USA",
+      "lat" : 37.548271,
+      "long" : -121.988571
+   },
+   {
+      "city" : "Gainesville, FL, USA",
+      "lat" : 29.651634,
+      "long" : -82.324829
+   },
+   {
+      "city" : "Fayetteville, NC, USA",
+      "lat" : 35.052666,
+      "long" : -78.878357
+   },
+   {
+      "city" : "O'Fallon, MO, USA",
+      "lat" : 38.810608,
+      "long" : -90.699844
+   },
+   {
+      "city" : "West Covina, CA, USA",
+      "lat" : 34.068623,
+      "long" : -117.93895
+   },
+   {
+      "city" : "Pico Rivera, CA, USA",
+      "lat" : 33.98307,
+      "long" : -118.096733
+   },
+   {
+      "city" : "Haines City, FL, USA",
+      "lat" : 28.114183,
+      "long" : -81.617851
+   },
+   {
+      "city" : "Joplin, Missouri, USA",
+      "lat" : 37.084229,
+      "long" : -94.513283
+   },
+   {
+      "city" : "Rock Hill, SC, USA",
+      "lat" : 34.924866,
+      "long" : -81.025078
+   },
+   {
+      "city" : "Lee's Summit, MO, USA",
+      "lat" : 38.910843,
+      "long" : -94.382172
+   },
+   {
+      "city" : "Dearborn, MI, USA",
+      "lat" : 42.322262,
+      "long" : -83.176315
+   },
+   {
+      "city" : "Newark, NJ, USA",
+      "lat" : 40.735657,
+      "long" : -74.172363
+   },
+   {
+      "city" : "Pontiac, MI, USA",
+      "lat" : 42.638924,
+      "long" : -83.291046
+   },
+   {
+      "city" : "Salem, MA, USA",
+      "lat" : 42.519539,
+      "long" : -70.896713
+   },
+   {
+      "city" : "Chattanooga, TN, USA",
+      "lat" : 35.045631,
+      "long" : -85.309677
+   },
+   {
+      "city" : "Palmdale, CA, USA",
+      "lat" : 34.579449,
+      "long" : -118.109291
+   },
+   {
+      "city" : "Redondo Beach, CA, USA",
+      "lat" : 33.849182,
+      "long" : -118.388405
+   },
+   {
+      "city" : "Tuscaloosa, AL, USA",
+      "lat" : 33.189281,
+      "long" : -87.565155
+   },
+   {
+      "city" : "Davie, FL, USA",
+      "lat" : 26.076477,
+      "long" : -80.252113
+   },
+   {
+      "city" : "Hattiesburg, MS, USA",
+      "lat" : 31.32712,
+      "long" : -89.290337
+   },
+   {
+      "city" : "Victoria, TX, USA",
+      "lat" : 28.798952,
+      "long" : -97.028503
+   },
+   {
+      "city" : "Casas Adobes, AZ, USA",
+      "lat" : 32.319054,
+      "long" : -111.001053
+   },
+   {
+      "city" : "Big Spring, TX, USA",
+      "lat" : 32.250992,
+      "long" : -101.479073
+   },
+   {
+      "city" : "Battle Creek, MI, USA",
+      "lat" : 42.321152,
+      "long" : -85.17971
+   },
+   {
+      "city" : "Eugene, OR, USA",
+      "lat" : 44.052071,
+      "long" : -123.086754
+   },
+   {
+      "city" : "Marrero, LA, USA",
+      "lat" : 29.899372,
+      "long" : -90.100349
+   },
+   {
+      "city" : "Castle Rock, CO, USA",
+      "lat" : 39.374912,
+      "long" : -104.853859
+   },
+   {
+      "city" : "Old Bridge Township, NJ, USA",
+      "lat" : 40.402714,
+      "long" : -74.305428
+   },
+   {
+      "city" : "Huntington Beach, CA, USA",
+      "lat" : 33.660057,
+      "long" : -117.99897
+   },
+   {
+      "city" : "Havertown, PA, USA",
+      "lat" : 39.981461,
+      "long" : -75.309387
+   },
+   {
+      "city" : "Brea, CA, USA",
+      "lat" : 33.916679,
+      "long" : -117.900063
+   },
+   {
+      "city" : "Virginia Beach, VA, USA",
+      "lat" : 36.86314,
+      "long" : -76.015778
+   },
+   {
+      "city" : "Warren, MI, USA",
+      "lat" : 42.491943,
+      "long" : -83.023888
+   },
+   {
+      "city" : "Anderson, SC, USA",
+      "lat" : 34.503441,
+      "long" : -82.650131
+   },
+   {
+      "city" : "White Plains, NY, USA",
+      "lat" : 41.033985,
+      "long" : -73.762909
+   },
+   {
+      "city" : "Lansing, MI, USA",
+      "lat" : 42.732536,
+      "long" : -84.555534
+   },
+   {
+      "city" : "Bismarck, ND, USA",
+      "lat" : 46.825905,
+      "long" : -100.778275
+   },
+   {
+      "city" : "Spring, TX, USA",
+      "lat" : 30.085136,
+      "long" : -95.425186
+   },
+   {
+      "city" : "Kissimmee, FL, USA",
+      "lat" : 28.291956,
+      "long" : -81.40757
+   },
+   {
+      "city" : "Eden Prairie, MN, USA",
+      "lat" : 44.852463,
+      "long" : -93.475113
+   },
+   {
+      "city" : "Louisville, KY, USA",
+      "lat" : 38.328732,
+      "long" : -85.764771
+   },
+   {
+      "city" : "Florence, SC, USA",
+      "lat" : 34.195435,
+      "long" : -79.762566
+   },
+   {
+      "city" : "Nashua, NH, USA",
+      "lat" : 42.765366,
+      "long" : -71.467567
+   },
+   {
+      "city" : "Greece, NY, USA",
+      "lat" : 43.209785,
+      "long" : -77.693062
+   },
+   {
+      "city" : "Bolingbrook, IL, USA",
+      "lat" : 41.698643,
+      "long" : -88.068398
+   },
+   {
+      "city" : "Midland, TX, USA",
+      "lat" : 32.000507,
+      "long" : -102.077408
+   },
+   {
+      "city" : "El Cajon, CA, USA",
+      "lat" : 32.794773,
+      "long" : -116.962524
+   },
+   {
+      "city" : "Chula Vista, CA, USA",
+      "lat" : 32.639954,
+      "long" : -117.106705
+   },
+   {
+      "city" : "Raleigh, NC, USA",
+      "lat" : 35.787743,
+      "long" : -78.644257
+   },
+   {
+      "city" : "Tewksbury, MA, USA",
+      "lat" : 42.610649,
+      "long" : -71.234222
+   },
+   {
+      "city" : "Williamsport, PA, USA",
+      "lat" : 41.242451,
+      "long" : -77.002831
+   },
+   {
+      "city" : "Olympia, WA, USA",
+      "lat" : 47.037872,
+      "long" : -122.900696
+   },
+   {
+      "city" : "Alhambra, CA, USA",
+      "lat" : 34.095287,
+      "long" : -118.127014
+   },
+   {
+      "city" : "Sandy Springs, GA, USA",
+      "lat" : 33.935101,
+      "long" : -84.360924
+   },
+   {
+      "city" : "Frederick, MD, USA",
+      "lat" : 39.412327,
+      "long" : -77.425461
+   },
+   {
+      "city" : "Erie, PA, USA",
+      "lat" : 42.129223,
+      "long" : -80.08506
+   },
+   {
+      "city" : "Mountain View, CA, USA",
+      "lat" : 37.386051,
+      "long" : -122.083855
+   },
+   {
+      "city" : "Eagle, ID, USA",
+      "lat" : 43.695442,
+      "long" : -116.354012
+   },
+   {
+      "city" : "Sugar Land, TX, USA",
+      "lat" : 29.619678,
+      "long" : -95.634949
+   },
+   {
+      "city" : "Jackson, MS, USA",
+      "lat" : 32.298756,
+      "long" : -90.184807
+   },
+   {
+      "city" : "Harrisburg, PA, USA",
+      "lat" : 40.26368,
+      "long" : -76.890739
+   },
+   {
+      "city" : "Edina, MN, USA",
+      "lat" : 44.889687,
+      "long" : -93.349953
+   },
+   {
+      "city" : "Metairie, LA, USA",
+      "lat" : 29.984093,
+      "long" : -90.152855
+   },
+   {
+      "city" : "Rancho Cordova, CA, USA",
+      "lat" : 38.589073,
+      "long" : -121.302727
+   },
+   {
+      "city" : "Mobile, AL, USA",
+      "lat" : 30.695366,
+      "long" : -88.039894
+   },
+   {
+      "city" : "San Diego, CA, USA",
+      "lat" : 32.715736,
+      "long" : -117.161087
+   },
+   {
+      "city" : "East Peoria, IL, USA",
+      "lat" : 40.666149,
+      "long" : -89.580101
+   },
+   {
+      "city" : "North Charleston, SC, USA",
+      "lat" : 32.854622,
+      "long" : -79.974808
+   },
+   {
+      "city" : "Gulfport, MS, USA",
+      "lat" : 30.36742,
+      "long" : -89.092819
+   },
+   {
+      "city" : "Cherry Hill, NJ, USA",
+      "lat" : 39.926811,
+      "long" : -75.024628
+   },
+   {
+      "city" : "Cincinnati, OH, USA",
+      "lat" : 39.103119,
+      "long" : -84.512016
+   },
+   {
+      "city" : "Glendale, CA, USA",
+      "lat" : 34.142509,
+      "long" : -118.255074
+   },
+   {
+      "city" : "Reading, PA, USA",
+      "lat" : 40.335648,
+      "long" : -75.926872
+   },
+   {
+      "city" : "Burien, WA, USA",
+      "lat" : 47.470379,
+      "long" : -122.346794
+   },
+   {
+      "city" : "Largo, FL, USA",
+      "lat" : 27.909468,
+      "long" : -82.787323
+   },
+   {
+      "city" : "Palm Harbor, FL, USA",
+      "lat" : 28.078072,
+      "long" : -82.76371
+   },
+   {
+      "city" : "Turlock, CA, USA",
+      "lat" : 37.494656,
+      "long" : -120.846596
+   },
+   {
+      "city" : "Camilla, GA, USA",
+      "lat" : 31.231293,
+      "long" : -84.210464
+   },
+   {
+      "city" : "Flagstaff, AZ, USA",
+      "lat" : 35.198284,
+      "long" : -111.651299
+   },
+   {
+      "city" : "Napa, CA, USA",
+      "lat" : 38.297539,
+      "long" : -122.286865
+   },
+   {
+      "city" : "Greenwich, CT, USA",
+      "lat" : 41.027054,
+      "long" : -73.620071
+   },
+   {
+      "city" : "Flower Mound, TX, USA",
+      "lat" : 33.014568,
+      "long" : -97.096954
+   },
+   {
+      "city" : "Plano, TX, USA",
+      "lat" : 33.019844,
+      "long" : -96.698883
+   },
+   {
+      "city" : "Atlanta, GA, USA",
+      "lat" : 33.753746,
+      "long" : -84.38633
+   },
+   {
+      "city" : "Marietta, GA, USA",
+      "lat" : 33.952602,
+      "long" : -84.549934
+   },
+   {
+      "city" : "Hopkinsville, KY, USA",
+      "lat" : 36.865601,
+      "long" : -87.488617
+   },
+   {
+      "city" : "Thousand Oaks, CA, USA",
+      "lat" : 34.170563,
+      "long" : -118.837593
+   },
+   {
+      "city" : "Omaha, NE, USA",
+      "lat" : 41.25716,
+      "long" : -95.995102
+   },
+   {
+      "city" : "Newark, CA, USA",
+      "lat" : 37.529659,
+      "long" : -122.040237
+   },
+   {
+      "city" : "Haltom City, TX, USA",
+      "lat" : 32.799576,
+      "long" : -97.26918
+   },
+   {
+      "city" : "Smithtown, NY, USA",
+      "lat" : 40.85593,
+      "long" : -73.200668
+   },
+   {
+      "city" : "Burbank, CA, USA",
+      "lat" : 34.18084,
+      "long" : -118.308968
+   },
+   {
+      "city" : "La Crosse, WI, USA",
+      "lat" : 43.801357,
+      "long" : -91.239578
+   },
+   {
+      "city" : "Brookfield, WI, USA",
+      "lat" : 43.061615,
+      "long" : -88.107948
+   },
+   {
+      "city" : "Arden-Arcade, CA, USA",
+      "lat" : 38.600807,
+      "long" : -121.377037
+   },
+   {
+      "city" : "Mercer Island, WA, USA",
+      "lat" : 47.570656,
+      "long" : -122.222069
+   },
+   {
+      "city" : "Petaluma, CA, USA",
+      "lat" : 38.244923,
+      "long" : -122.626991
+   },
+   {
+      "city" : "Yorktown, VA, USA",
+      "lat" : 37.238754,
+      "long" : -76.509674
+   }
+]
