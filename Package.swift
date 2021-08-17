@@ -27,6 +27,7 @@ let package = Package(
         ),
         .testTarget(
             name: "CompactPlacemarkTests",
-            dependencies: ["CompactPlacemark"]),
+            dependencies: ["CompactPlacemark"],
+            resources: [ .copy("test_cities.json")])
     ]
 )

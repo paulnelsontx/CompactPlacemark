@@ -572,7 +572,17 @@ internal struct CompactFuelIndex {
             }
         }
         if let idx = index {
-            if let info = idx[isoCode],
+            var key : String
+            if isoCode.isEmpty {
+                if let lc = Locale.current.languageCode {
+                    key = "\(lc)_\(Locale.current.identifier)"
+                } else {
+                    key = "en_\(Locale.current.identifier)"
+                }
+            } else {
+                key = isoCode
+            }
+            if let info = idx[key],
                let factor = info["factor"] as? Double,
                let long = info["long"] as? String,
                let short = info["short"] as? String {
