@@ -112,4 +112,10 @@
                 }
             }
         }
+        
+        func testQuantityCode() throws {
+            let pmi = CompactPlacemark()
+            let qc = pmi.quantityCode
+            XCTAssert(qc == "Gal")
+        }
     }

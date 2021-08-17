@@ -53,10 +53,18 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         return fuelInfo.conversion
     }
     public var quantityCode : String {
+        if placemark.isoCountryCode.isEmpty, let rc = self.locale?.regionCode {
+            let fuelInfo = CompactFuelIndex.lookup(isoCode: rc)
+            return fuelInfo.labelShort
+        }
         let fuelInfo = CompactFuelIndex.lookup(isoCode: placemark.isoCountryCode)
         return fuelInfo.labelShort
     }
     public var quantityLabel : String {
+        if placemark.isoCountryCode.isEmpty, let rc = self.locale?.regionCode {
+            let fuelInfo = CompactFuelIndex.lookup(isoCode: rc)
+            return fuelInfo.labelLong
+        }
         let fuelInfo = CompactFuelIndex.lookup(isoCode: placemark.isoCountryCode)
         return fuelInfo.labelLong
     }
@@ -574,10 +582,10 @@ internal struct CompactFuelIndex {
         if let idx = index {
             var key : String
             if isoCode.isEmpty {
-                if let lc = Locale.current.languageCode {
-                    key = "\(lc)_\(Locale.current.identifier)"
+                if let rc = Locale.current.regionCode {
+                    key = rc
                 } else {
-                    key = "en_\(Locale.current.identifier)"
+                    key = ""
                 }
             } else {
                 key = isoCode
