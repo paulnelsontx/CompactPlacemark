@@ -31,7 +31,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
     public var locality : String { placemark.locality }
     public var subAdministrativeArea : String { placemark.subAdministrativeArea }
     public var administrativeArea : String { placemark.administrativeArea }
-    public var napostalCodeme : String { placemark.postalCode }
+    public var postalCode : String { placemark.postalCode }
     public var country : String { placemark.country }
     public var isoCountryCode : String { placemark.isoCountryCode }
     public var currencyCode : String {
