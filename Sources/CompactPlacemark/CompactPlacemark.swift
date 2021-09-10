@@ -242,6 +242,16 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         }
         return priceString
     }
+    public func currency( from: String ) -> Double? {
+        let locale = self.locale ?? Locale.current
+        let fmt = NumberFormatter()
+        fmt.locale = locale
+        fmt.numberStyle = .currency
+        if let numeric = fmt.number(from: from) {
+            return numeric.doubleValue
+        }
+        return nil
+    }
     
     public func numeric( value: Double, significantDigits : Int = 2 ) -> String {
         let locale = self.locale ?? Locale.current
