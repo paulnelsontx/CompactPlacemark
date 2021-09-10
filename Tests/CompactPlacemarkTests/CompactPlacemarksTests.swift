@@ -118,4 +118,14 @@
             let qc = pmi.quantityCode
             XCTAssert(qc == "Gal")
         }
+        
+        func testStrings() throws {
+            let pmi = CompactPlacemark()
+            if let val = pmi.currency(from: "$40.11") {
+                XCTAssert( val == 40.11 )
+            }
+            if let val = pmi.currency(from: "$foo") {
+                XCTFail("currency method returned a value when it should not have \(val)")
+            }
+        }
     }
