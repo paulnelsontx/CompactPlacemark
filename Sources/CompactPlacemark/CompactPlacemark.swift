@@ -93,7 +93,8 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         let postalCode : String
         let country : String
         let isoCountryCode : String
-        
+        let streetAddress : String
+
         init(_ strings: [String]) {
             self.name                   = strings.count >= 1 ? strings[0] : ""
             self.thoroughfare           = strings.count >= 2 ? strings[1] : ""
@@ -104,6 +105,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
             self.postalCode             = strings.count >= 7 ? strings[6] : ""
             self.country                = strings.count >= 8 ? strings[7] : ""
             self.isoCountryCode         = strings.count >= 9 ? strings[8] : ""
+            self.streetAddress          = strings.count >= 10 ? strings[9] : ""
         }
         
         internal init( _ placemark: CLPlacemark ) {
@@ -116,6 +118,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
             self.postalCode = placemark.postalCode ?? ""
             self.country = placemark.country ?? ""
             self.isoCountryCode = placemark.isoCountryCode ?? ""
+            self.streetAddress = placemark.postalAddress?.street ?? ""
         }
         
         internal init( name: String? = nil,
@@ -126,7 +129,8 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
               administrativeArea : String? = nil,
               postalCode : String? = nil,
               country : String? = nil,
-              isoCountryCode : String? = nil) {
+              isoCountryCode : String? = nil,
+              streetAddress : String? = nil) {
             self.name                   = name ?? ""
             self.thoroughfare           = thoroughfare ?? ""
             self.subLocality            = subLocality ?? ""
@@ -136,6 +140,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
             self.postalCode             = postalCode ?? ""
             self.country                = country ?? ""
             self.isoCountryCode         = isoCountryCode ?? ""
+            self.streetAddress          = streetAddress ?? ""
         }
     }
 
@@ -371,6 +376,34 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         return addr
     }
     
+    public var streetAddress : String {
+        var addr = ""
+        if placemark.streetAddress.count > 0 {
+            addr += placemark.streetAddress
+        } else if placemark.thoroughfare.count > 0 {
+            addr += placemark.thoroughfare
+        }
+        if placemark.locality.count > 0 {
+            if addr.count > 0 {
+                addr += ", "
+            }
+            addr += placemark.locality
+        }
+        if placemark.administrativeArea.count > 0 {
+            if addr.count > 0 {
+                addr += ", "
+            }
+            addr += placemark.administrativeArea
+        }
+        if placemark.postalCode.count > 0 {
+            addr += " \(placemark.postalCode)"
+        }
+        if placemark.isoCountryCode.count > 0 {
+            addr += " \(placemark.isoCountryCode)"
+        }
+        return addr
+    }
+
     var retries : UInt32 = 0
     
     private func processPlacemarks(_ placemarks: [CLPlacemark] ) {
