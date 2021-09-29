@@ -297,6 +297,12 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
             PacedOperationQueue.shared.add(op)
         }
     }
+    
+    public func resetCache() {
+        CompactPlacemarkCache.shared.reset(self)
+        fetch()
+    }
+    
     private func setLocale() {
         if self.placemark.isoCountryCode.count > 0 {
             var pmLocale : Locale? = nil
@@ -591,6 +597,16 @@ internal class CompactPlacemarkCache {
             
         }
         return nil
+    }
+    
+    public func reset(_ placemark:CompactPlacemark) {
+        do {
+            if let file = filename(placemark: placemark) {
+                try FileManager.default.removeItem(at: file)
+            }
+        } catch {
+            // ignore errors
+        }
     }
 }
 
