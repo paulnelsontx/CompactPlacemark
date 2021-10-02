@@ -96,11 +96,15 @@ class PacedOperation : Operation {
     }
     public func complete() {
         os_signpost(.end, log:PacedOperationQueue.oslog, name: "perform", signpostID:self.signpostID)
-        self.isFinished = true
+        if _executing {
+            self.isFinished = true
+        }
     }
     override public func cancel() {
         os_signpost(.event, log:PacedOperationQueue.oslog, name: "cancel", signpostID:self.signpostID)
-        isFinished = true
+        if _executing {
+            self.isFinished = true
+        }
     }
     override public func start() {
         os_signpost(.begin, log:PacedOperationQueue.oslog, name: "perform", signpostID:self.signpostID)
