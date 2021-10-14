@@ -97,16 +97,19 @@ class PacedOperation : Operation {
     public func complete() {
         os_signpost(.end, log:PacedOperationQueue.oslog, name: "perform", signpostID:self.signpostID)
         if _executing {
+            self.isExecuting = false
             self.isFinished = true
         }
     }
     override public func cancel() {
+        self.isExecuting = false
         os_signpost(.event, log:PacedOperationQueue.oslog, name: "cancel", signpostID:self.signpostID)
         if _executing {
             self.isFinished = true
         }
     }
     override public func start() {
+        self.isExecuting = true
         os_signpost(.begin, log:PacedOperationQueue.oslog, name: "perform", signpostID:self.signpostID)
         if delayMultiplier > 0 {
             usleep(100000 * delayMultiplier)
