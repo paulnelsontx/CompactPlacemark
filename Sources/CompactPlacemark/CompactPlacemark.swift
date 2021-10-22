@@ -418,6 +418,9 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
         var localeName = Locale.current.identifier
         let currentLanguage = Locale.current.languageCode ?? "en"
         var countryCode : String?
+
+        os_log("%@", log: .default, type: .debug,
+               "CompactPlacemark.processPlacemarks for \(self.location.coordinate.latitude),\(self.location.coordinate.longitude) found \(placemarks.count)" )
         // this is overkill, but try to find a locale for the placemark in user's language
         for placemark in placemarks {
             if let country = placemark.isoCountryCode {
@@ -465,7 +468,8 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
     
     private func processReverseError( _ error : Error ) {
         var shouldPublish = false
-//        print("reverse error\n")
+        os_log("%@", log: .default, type: .error,
+               "CompactPlacemark.pacedPerform failed \(self.location.coordinate.latitude),\(self.location.coordinate.longitude) error:\(error.localizedDescription)" )
         if let err = error as? CLError {
             if err.code == CLError.Code.network {
                 // try again?
