@@ -492,6 +492,7 @@ public class CompactPlacemark : ObservableObject, Identifiable, PacedOperationPr
     
     internal func pacedPerform(op: PacedOperation) {
         let geocoder = CLGeocoder()
+        os_log("%@", log: .default, type: .debug,"CompactPlacemark.pacedPerform looking up \(location.coordinate.latitude),\(location.coordinate.longitude)" )
         geocoder.reverseGeocodeLocation(self.location) { placemarks, error in
             if let err = error {
                 self.processReverseError(err)
