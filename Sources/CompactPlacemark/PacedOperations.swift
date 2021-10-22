@@ -17,8 +17,10 @@ protocol PacedOperationProtocol {
 }
 
 class PacedOperationQueue {
-    var paceMicroseconds : UInt32 = 30010000
-    var paceCount = 25
+//    var paceMicroseconds : UInt32 = 30010000
+//    var paceCount = 25
+    var paceMicroseconds : UInt32 = 5010000
+    var paceCount = 5
 
     static private var _shared : PacedOperationQueue?
     static public var shared : PacedOperationQueue {
