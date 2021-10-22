@@ -8,6 +8,9 @@
 
 import Foundation
 import os.signpost
+#if os(iOS)
+import UIKit
+#endif
 
 protocol PacedOperationProtocol {
     func pacedPerform(op: PacedOperation)
@@ -37,6 +40,16 @@ class PacedOperationQueue {
         queue.name = "PacedOperationQueue"
         queue.maxConcurrentOperationCount = 1
         queue.qualityOfService = .background
+        NotificationCenter.default.addObserver(forName: UIApplication.willResignActiveNotification,
+                                               object: nil,
+                                               queue: nil) { note in
+            self.queue.isSuspended = true
+        }
+        NotificationCenter.default.addObserver(forName: UIApplication.willEnterForegroundNotification,
+                                               object: nil,
+                                               queue: nil) { note in
+            self.queue.isSuspended = false
+        }
     }
     
     func add(_ op: PacedOperation, delayMultiplier: UInt32 = 0) {
@@ -60,6 +73,10 @@ class PacedOperation : Operation {
     private var delayMultiplier : UInt32 = 0
     private var paced : PacedOperationProtocol
     public var signpostID = OSSignpostID(log:PacedOperationQueue.oslog)
+    #if os(iOS)
+    private var backgroundID: UIBackgroundTaskIdentifier?
+    #endif
+    
     init( paced: PacedOperationProtocol, delayMultiplier : UInt32 = 0 ) {
         self.paced = paced
         self.delayMultiplier = delayMultiplier
@@ -92,6 +109,11 @@ class PacedOperation : Operation {
                 }
                 didChangeValue(forKey: "isFinished")
             }
+            #if os(iOS)
+            if isFinished, let task = backgroundID {
+                UIApplication.shared.endBackgroundTask(task)
+            }
+            #endif
         }
     }
     public func complete() {
@@ -109,6 +131,11 @@ class PacedOperation : Operation {
         }
     }
     override public func start() {
+        #if os(iOS)
+        self.backgroundID = UIApplication.shared.beginBackgroundTask {
+            self.cancel()
+        }
+        #endif
         self.isExecuting = true
         os_signpost(.begin, log:PacedOperationQueue.oslog, name: "perform", signpostID:self.signpostID)
         if delayMultiplier > 0 {
